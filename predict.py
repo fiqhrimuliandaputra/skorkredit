@@ -30,10 +30,10 @@ def preprocess_input(input_data):
 
 def make_predictions(input_data):
     """ function to make final prediction using pipeline """
-    with open('FE-SC-IMP-OHE-1.0.0.pkl', 'rb') as f:
+    with open('trained_model/FE-SC-IMP-OHE-1.0.0.pkl', 'rb') as f:
         fe = pickle.load(f)
 
-    with open('M-LR-1.0.0.pkl', 'rb') as f:
+    with open('trained_model/M-LR-1.0.0.pkl', 'rb') as f:
         model = pickle.load(f)
     input_data = preprocess_input(input_data).T.replace({
         None: np.nan,
