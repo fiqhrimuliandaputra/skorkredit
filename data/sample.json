@@ -1,0 +1,13 @@
+{
+    "person_age": 30,
+    "person_income": 5000,
+    "person_home_ownership": "RENT",
+    "person_emp_length": 6,
+    "loan_intent": "MEDICAL",
+    "loan_grade": "A",
+    "loan_amnt": 6000,
+    "loan_int_rate": 7,
+    "loan_percent_income": 0.15,
+    "cb_person_default_on_file": "Y",
+    "cb_person_cred_hist_length": 2
+}
