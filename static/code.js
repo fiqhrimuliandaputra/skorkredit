@@ -66,7 +66,7 @@ $(document).on('click','.button',function(e){
       // # https://api.jquery.com/jquery.post/
       // # https://stackoverflow.com/questions/56032972/sending-a-dictionary-from-js-to-flask-via-ajax
       $.ajax({
-        url: 'https://creditscorefq.herokuapp.com//predict',
+        url: 'https://skorkredit.herokuapp.com/predict',
         contentType: "application/json;charset=utf-8",
         data: JSON.stringify({data}),
         dataType: "json",
